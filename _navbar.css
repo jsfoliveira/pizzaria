@@ -1,0 +1,17 @@
+
+.navbar {
+    position:fixed;
+    
+}
+
+.links {
+    justify-self: end;
+  }
+  
+  .links li {
+    display: inline-block;
+    font-size: 0.875rem;
+    margin-right: 3rem;
+    text-transform: uppercase;
+  }
+  

@@ -1,0 +1,27 @@
+{
+  "name": "pizzaria",
+  "version": "1.0.0",
+  "description": "Projeto de uma pizzaria ficticia, usando somente HTML e CSS.",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx live-server index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsfoliveira/pizzaria.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS"
+  ],
+  "author": "Juliana Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsfoliveira/pizzaria/issues"
+  },
+  "homepage": "https://github.com/jsfoliveira/pizzaria#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
