@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Roboto:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Tourney&display=swap');
+
+:root {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.everything {
+  padding-top: 7.25rem;
+}
+
+.navbar {
+    position:fixed;
+    background-color: brown;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 7.75rem;
+  }
+
+.navbar__container {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    align-items: center;
+    width: 100vw;
+    height: 7.75rem;
+    padding: 0 1rem;
+  }
+  .navbar__links {
+    justify-self:end;
+  }
+  
+  .navbar__links li {
+    display: inline-block;
+    font-size: 0.875rem;
+    margin-right: 3rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #000;
+    text-decoration: none;
+  }
+
+  .logo {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 30px;
+    }
+
+  .logo--subtitle {
+    font-weight: 400;
+    text-align: right;
+    float:right;
+    color: goldenrod;
+    font-size: 25px;
+    font-family: 'Tourney', cursive;
+
+  }
+
+  .first__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  .first__text {
+    background-color:peru;
+    padding: 0 1.875rem;
+   
+    font-size: 1.2rem;
+    font-weight: 300rem;
+    font-family: 'Tourney', cursive;
+    letter-spacing: 0.1rem;
+    margin: 0;
+  }
+
+  .chamamento {
+    font-size: 1.5rem;
+  }
+
+.menu {
+    text-align: center;
+    background-color:whitesmoke;
+}
+
+.third {
+  background-image: url('./image/header.jpg');
+  display: grid;
+  text-align: center;
+ 
+  
+}
+
+.fourth {
+  background-color:gainsboro;
+  text-align: center;
+}
+
+
+
+  .footer {
+    background-color:burlywood;
+  }
+  
+  .footer__links {
+    justify-self:center;
+  }
+
+  .footer__links li {
+    display: inline-block;
+    font-size: 0.875rem;
+    margin-right: 3rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #000;
+  }
+
+  .footer__text{
+    text-align: center;
+    font-size: italic;
+  }
