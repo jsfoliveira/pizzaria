@@ -120,17 +120,31 @@
 }
 
 .third {
-  background-image: url('./image/madeira.jpg');
+  background-image: url('./image/mato.jpg');
   display: grid;
   text-align: center;
+  padding:40px 40px;
 }
 
 .third__container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  background-color:darkred;
-  padding:100px 100px;
+  grid-template-columns: 1fr 0.1fr 1fr;
+  height: 250px;
+  background-color:slategrey;
+}
 
+.third__pandemic h6,
+.third__testimonial h6 {
+  font-size: 11px;
+  text-align: center;
+  color:
+}
+
+.third__pandemic h1,
+.third__testimonial h1{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Tourney', cursive;
 }
 
 .fourth {
